@@ -561,8 +561,8 @@ const Footer = () => {
   return (
     <footer className="py-3 bg-light w-100  mt-5 text-center border message">
       Copyright © {year} -{" "}
-      <a href="https://vivekchaprana.netlify.app" target="__blank">
-        Vivek Chaprana
+      <a href="https://vercel.com/dhruv-sharmas-projects-abbdbc0b" target="__blank">
+        Dhruv Sharma
       </a>
       . Any suggestions to site, feel free to make a pull request on{" "}
       <a href="https://github.com/vivek-chaprana/React-rps" target="__blank">
