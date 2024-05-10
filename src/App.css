@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap');
+
+.main-heading {
+  font-family: "Anurati Regular";
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.wait-status p {
+  animation: blink 1s linear infinite;
+}
+
+#rock:hover div {
+  border: 2px solid #ff85ff !important;
+}
+#rock:hover p {
+  color: #ff85ff !important;
+}
+#scissors:hover div {
+  border: 2px solid #40dcff !important;
+}
+#scissors:hover p {
+  color: #40dcff !important;
+}
+#paper:hover div {
+  border: 2px solid #fced19 !important;
+}
+#paper:hover p {
+  color: #fced19 !important;
+}
+.not-active {
+  opacity: 0.5;
+}
+
+.active-rock div {
+  border: 2px solid #ff85ff !important;
+}
+.active-paper div {
+  border: 2px solid #fced19 !important;
+}
+.active-scissor div {
+  border: 2px solid #40dcff !important;
+}
+.active-rock p {
+  color: #ff85ff;
+}
+.active-paper p {
+  color: #fced19;
+}
+.active-scissor p {
+  color: #40dcff;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+  opacity: .7;
+}
+a:hover{
+  opacity: 1;
+  text-decoration: underline;
+  color: black;
+}
+.message{
+  font-family: 'ZCOOL XiaoWei', serif !important;
+}
+
+@media (max-width: 500px){
+  .message{
+    min-height: 15vh;
+  }
+  .fill-box{
+    min-height: 15vh;
+  }
+  .outerRules{
+    flex-direction: column;
+
+  }
+  .img-and-text{
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+  }
+  #rock:hover div {
+    border: 0;
+  }
+  #rock:hover p {
+    color: black;
+  }
+  #scissors:hover div {
+    border: 0;
+  }
+  #scissors:hover p {
+    color: black;
+  }
+  #paper:hover div {
+    border: 0;
+  }
+  #paper:hover p {
+    color: black;
+  }
+}
