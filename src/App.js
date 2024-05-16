@@ -565,7 +565,7 @@ const Footer = () => {
         Dhruv Sharma
       </a>
       . Any suggestions to site, feel free to make a pull request on{" "}
-      <a href="https://github.com/vivek-chaprana/React-rps" target="__blank">
+      <a href="https://github.com/Dhruv3sh/sps-frontend" target="__blank">
         Github
       </a>{" "}
       .
